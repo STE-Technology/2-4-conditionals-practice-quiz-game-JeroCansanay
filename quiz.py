@@ -1,7 +1,7 @@
 """
 File: quiz.py
-Author: Name
-Date: YYYY-MM-DD
+Author: Jero Cansanay
+Date: 2024-03-05
 Description: A Multiple choice game that calculates the score
 """
 print("Multiple-Question Quiz Game (NBA)")
@@ -43,10 +43,12 @@ answer_3 = input("Answer:")
 
 if answer_3.lower() == "b":
     correct_answers += 1
-    pri
+    print("Correct!")
+else:
+    print("Incorrect!")
 
-# Calculate the percentage score
+# Calculates the percentage score
 score_percentage = (correct_answers / 3) * 100
 
-# Print the quiz completion message with the score
-print("Quiz complete! You answered {} out of 3 questions correctly. Your score is {:.1f}%".format(correct_answers, score_percentage))
+# Prints the quiz completion message with the score
+print(f"Quiz complete! You answered {correct_answers} out of 3, Your score is {score_percentage} %")
