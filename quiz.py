@@ -15,7 +15,7 @@ print("(c) Kareem Abdul-Jabbar")
 
 answer_1 = input("Answer:")
 
-if answer_1.lower() == "b":
+if answer_1 == "b":
     print("Correct!")
     correct_answers += 1
 else:
@@ -28,7 +28,7 @@ print("(c) Kyle Korver")
 
 answer_2 = input("Answer:")
 
-if answer_2.lower() == "a":
+if answer_2 == "a":
     correct_answers += 1
     print("Correct!")
 else:
@@ -41,7 +41,7 @@ print("(c) Kobe Bryant")
 
 answer_3 = input("Answer:")
 
-if answer_3.lower() == "b":
+if answer_3 == "b":
     correct_answers += 1
     print("Correct!")
 else:
